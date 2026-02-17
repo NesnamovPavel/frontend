@@ -1,0 +1,31 @@
+h1 {
+    color: darkblue;
+    /* выравнивание текста*/
+    text-align: center;
+}
+
+p {
+    color: rgb(173, 69, 8);
+    /*изменение стиля шрифта: курсив*/
+    font-style: italic;
+}
+
+/* селектор по классу (desc) и является приорететнее селекторов по тегу  */
+.desc {
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(13,94,32);
+}
+
+.violet {
+    color: darkorchid;
+}
+
+#heading {
+    color: rgb(139, 66, 61);
+}
+
+/* селектор для всех элементов li внутри ol */
+ol > li {
+    font-weight: 500;
+}
