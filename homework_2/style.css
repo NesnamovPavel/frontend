@@ -1,0 +1,25 @@
+button {
+    background-color: #778D45;
+    margin: 30px;
+    padding: 35px 45px;
+    border-radius: 15px;
+    border: none;
+}
+
+.green {
+    color: white;
+    font-size: 25px;
+}
+
+.light-green {
+    background-color: #AEC09A;
+   color: white;
+   margin: 40px;
+   padding: 35px 45px;
+   border-radius: 15px;
+   font-size: 25px;
+}
+
+.light-green:hover {
+    color: black;
+}

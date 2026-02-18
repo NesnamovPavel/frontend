@@ -1,0 +1,57 @@
+/* убирает стандартное поведение еонтейнеров, при котором padding и border расширяют размер контейнера */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(246, 240, 240);
+}
+
+main {
+    padding: 0px 20px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 5px solid cyan;
+  /*    margin: 10px; */
+  margin: 10px 20px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.red-box {
+  background-color: rgb(246, 103, 103);
+}
+
+.blue-box {
+  background-color: rgb(106, 106, 255);
+  border: 5px dashed greenyellow;
+}
+
+header {
+    height: 100px;
+    background-color: orange;
+}
+
+/* для всех тегов span внитри p */
+p > span {
+    color: rgb(255, 62, 62);
+    text-decoration: underline;
+}
+
+ul {
+    padding: opx;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: '⭐';
+    margin-right: 10px;
+}

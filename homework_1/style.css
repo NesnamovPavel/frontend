@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "⚡";
+}
+
