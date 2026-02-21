@@ -1,7 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
 
 main {
   width: 400vh;
+}
+
+header {
+  height: 80px;
+  padding: 20px 0 10px;
+  background-image: url("imagebanner.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+
+nav span {
+  color: white;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+  }
+
+.logo {
+  height: 30px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+div > img {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.oscar {
+  height: 18px;
+}
+
+input {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+  }
+
+  input:hover {
+    opacity: 1;
+  }
+
+div:hover .oscar-desc,
+div:hover .oscar,
+div:hover .cinema-desc,
+div:hover .play-logo {
+  opacity: 1;
 }
