@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  /*font-family: "Tilt Warp", sans-serif;*/
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 400vh;
+}
+
+header {
+  height: 100px;
+  padding: 20 0 15px;
+  background-image: url("imagebanner.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+
+nav span {
+  color: white;
+  opacity: 0.5;
+}
+
+.logo {
+  height: 30px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+div > img {
+  opacity: 0.5;
+}
+
+.oscar {
+  height: 18px;
+}
+
+input {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+div:hover .oscar-desc,
+div:hover .oscar,
+div:hover .play-desc,
+div:hover .play-logo {
+  opacity: 1;
+}
